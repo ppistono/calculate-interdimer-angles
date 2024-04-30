@@ -2,7 +2,10 @@
 # Email: ppistono@berkeley.edu
 
 '''
-This program uses the MDAnalysis Python packages and calculates MS2 viral capsid interdimer contact angles over the course of a trajectory. The centers of mass of the neighboring residues 36 and 98 were calculated, and a vector was drawn to represent the axis between the residues in each neighboring dimer.Then, the angle between the two vectors over the trajectory is calculated and plotted.
+This program uses the MDAnalysis Python packages and calculates MS2 viral capsid interdimer contact angles over 
+the course of a trajectory. The centers of mass of the neighboring residues 36 and 98 were calculated, and a 
+vector was drawn to represent the axis between the residues in each neighboring dimer.Then, the angle between 
+the two vectors over the trajectory is calculated and plotted.
 '''
 
 import numpy as np
